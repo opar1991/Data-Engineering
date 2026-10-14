@@ -2,6 +2,8 @@ import pandas as pd
 
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
+import requests
+
 
 
 file_path = r"C:\Users\user\Downloads\Sample+-+Superstore.csv"
@@ -100,4 +102,33 @@ df_total_customers = pd.read_sql("""
 """, con=engine
 )
 print(df_total_customers)
+
+#working with APIS
+
+api_url="https://open.er-api.com/v6/latest/USD"
+
+response = requests.get(api_url, timeout=30)
+response.raise_for_status()
+data = response.json()
+
+# Check whether the API request was successful
+if data["result"] == "success":
+    rates = data["rates"]
+
+    # Convert exchange rates into a DataFrame
+    df = pd.DataFrame(
+        list(rates.items()),
+        columns=["Currency", "rate_per_USD"]
+    )
+
+    print("First 5 currencies:\n", df.head())
+    print("\nTotal Currencies:\n", len(df))
+
+    # Specifically show USD to Kenyan Shillings
+    print("\nUSD to KES:\n", df[df["Currency"] == "KES"])
+
+else:
+    print("API request failed:", data)
+
+
 

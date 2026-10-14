@@ -84,3 +84,5 @@ print("\n Negative Discount Values is: \n", (df["Discount"]<0).sum())
 print("\n Negative Quantity Values is: \n", (df["Quantity"]<0).sum())
 
 
+
+
