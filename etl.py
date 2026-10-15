@@ -130,5 +130,24 @@ if data["result"] == "success":
 else:
     print("API request failed:", data)
 
+#top 10 strongest currecies against dollar
+
+print(df.sort_values("rate_per_USD").head(10))
+
+#top 10 weakest currents against dollar
+#print(df.sort_values("rate_per_USD").tail(10))
+print(df.sort_values("rate_per_USD", ascending=False).head(10))
+
+#see only african currencies
+
+africa = df[df["Currency"].isin(["GHS", "KES", "NGN", "ZAR"])]
+print(africa)
+
+#how much usd we will get for exchange of each currency
+
+df["rate_per_currency"]=1/df["rate_per_USD"]
+print(df.head(10))
+
+
 
 
