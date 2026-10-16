@@ -37,8 +37,8 @@ df_flagged = df.withColumn(
 )
 
 df_flagged.show(truncate=False)
-df_flagged.filter(col("is_suspicious")=="YES")\
-    .write.mode("overwrite").parquet("suspicious_transaction.parquet")
+#df_flagged.filter(col("is_suspicious")=="YES")\
+ #   .write.mode("overwrite").parquet("suspicious_transaction.parquet")
 
 
 #an ecommerce wants to track and anlyze user clickstream data to understand customer behavior
