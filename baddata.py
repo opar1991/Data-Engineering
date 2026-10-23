@@ -1,5 +1,7 @@
 import pandas as pd
 import logging
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
 
 """
 
@@ -117,6 +119,17 @@ try:
 
 except Exception as e:
     logging.error(f"Pipeline Failed...: {e}")
+
+
+#using pyspark to bult etls
+
+logging.info("starting spark session")
+
+
+spark = SparkSession.builder.appName("ETL_transactions").getOrCreate()
+
+logging.info("Etl Pipeline started successfully")
+
 
 
 
