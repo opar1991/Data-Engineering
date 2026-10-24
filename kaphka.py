@@ -51,7 +51,7 @@ for filename in os.listdir(folder_path):
             time.sleep(1)
 producer.flush()
 print("ALL Messages sent ")
-        
+    
 
 
 
