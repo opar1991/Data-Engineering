@@ -1,49 +1,116 @@
-import pandas as pd
-from datetime import datetime, timedelta
-#from airflow import DAG
-#from airflow.operators.python import PythonOperator
+
 import logging
+from pathlib import Path
+from datetime import datetime, timedelta
 
+import pandas as pd
+from airflow import DAG
+from airflow.operators.python import PythonOperator
 
-#first rest logging so that we dont get error
+# This directory must be mounted into the Airflow container.
+DATA_DIR = Path("/opt/airflow/dags/Data")
 
-for handler in logging.root.handlers[:]:
-    logging.root.removeHandler(handler)
+INPUT_FILE = DATA_DIR / "transactions_2025.csv"
+INTERMEDIATE_FILE = DATA_DIR / "successful_transactions.csv"
+OUTPUT_FILE = DATA_DIR / "transactions_2026.csv"
 
-#configure logging to write to terminal and file
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s -%(message)s"
-)
-#file handler to save our log
-
-file_Handler = logging.FileHandler("banktrasanctions.log", mode="w")
-file_Handler.setLevel(logging.INFO)
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-file_Handler.setFormatter(formatter)
-
-logging.getLogger().addHandler(file_Handler)
 
 def extract_data():
     try:
-        file_path = r"C:\Users\user\Downloads\transactions_2025.csv"
-        df = pd.read_csv(file_path)
-        logging.info(f"Data extracted successfully...")
-        print(f"Total Extracted rows: {len(df)}")
-        print("sample data preview")
-        print(df.head(10))
-        return df
-    except FileNotFoundError:
-        print("ERROR: FILE NOT FOUND, Please check the file path and try again")
-    except Exception as e:
-        print(f"Unexpected error: {e}")
+        df = pd.read_csv(INPUT_FILE)
 
-extract_data()
+        logging.info("Data extracted successfully")
+        logging.info("Total extracted rows: %s", len(df))
+
+        # Return a path, not the entire DataFrame.
+        return str(INPUT_FILE)
+
+    except Exception:
+        logging.exception("Data extraction failed")
+        raise
 
 
+def transform_data(input_path):
+    try:
+        df = pd.read_csv(input_path)
+
+        required_columns = {"status", "amount", "branch"}
+        missing = required_columns - set(df.columns)
+
+        if missing:
+            raise ValueError(f"Missing columns: {missing}")
+
+        cleaned_df = df[
+            df["status"].astype(str).str.strip().str.lower()
+            == "success"
+        ].copy()
+
+        cleaned_df["amount"] = pd.to_numeric(
+            cleaned_df["amount"], errors="raise"
+        )
+
+        total_amount = cleaned_df["amount"].sum()
+        branch_summary = cleaned_df.groupby("branch")["amount"].sum()
+
+        logging.info("Transformation successful")
+        logging.info("Successful transactions: %s", len(cleaned_df))
+        logging.info("Successful amount: KES %,.2f", total_amount)
+        logging.info("Branch summary:\n%s", branch_summary)
+
+        cleaned_df.to_csv(INTERMEDIATE_FILE, index=False)
+
+        return str(INTERMEDIATE_FILE)
+
+    except Exception:
+        logging.exception("Data transformation failed")
+        raise
 
 
-    
-        
+def load_data(input_path):
+    try:
+        cleaned_df = pd.read_csv(input_path)
 
+        cleaned_df.to_csv(OUTPUT_FILE, index=False)
+
+        logging.info("Data loaded successfully: %s rows", len(cleaned_df))
+        logging.info("Output saved at: %s", OUTPUT_FILE)
+
+    except Exception:
+        logging.exception("Data loading failed")
+        raise
+
+
+default_args = {
+    "owner": "airflow",
+    "retries": 1,
+    "retry_delay": timedelta(minutes=1),
+}
+
+
+with DAG(
+    dag_id="simple_etl",
+    default_args=default_args,
+    description="Bank transaction ETL pipeline",
+    schedule="@daily",
+    start_date=datetime(2026, 10, 27),
+    catchup=False,
+) as dag:
+
+    extract_task = PythonOperator(
+        task_id="extract",
+        python_callable=extract_data,
+    )
+
+    transform_task = PythonOperator(
+        task_id="transform",
+        python_callable=transform_data,
+        op_args=[extract_task.output],
+    )
+
+    load_task = PythonOperator(
+        task_id="load",
+        python_callable=load_data,
+        op_args=[transform_task.output],
+    )
+
+    extract_task >> transform_task >> load_task

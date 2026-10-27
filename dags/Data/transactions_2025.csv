@@ -1,0 +1,251 @@
+transaction_id,customer_id,account_type,amount,transaction_type,branch,timestamp,status
+T1001,C001,Credit,56554.2,Transfer,Kano,2025-10-06 13:44:00,Success
+T1002,C002,Credit,52145.09,Transfer,Ibadan,2025-10-02 23:28:00,Success
+T1003,C003,Savings,15868.81,Deposit,Abuja,2025-10-12 11:59:00,Success
+T1004,C004,Credit,100219.99,Transfer,Enugu,2025-10-10 13:06:00,Success
+T1005,C005,Credit,139817.16,Deposit,Abuja,2025-10-10 14:48:00,Success
+T1006,C006,Savings,108441.57,Withdrawal,Lagos,2025-10-03 02:39:00,Success
+T1007,C007,Current,423899.69,Transfer,Kano,2025-10-01 23:43:00,Success
+T1008,C008,Credit,63288.26,Withdrawal,Lagos,2025-10-07 16:06:00,Success
+T1009,C009,Credit,442840.42,Withdrawal,Ibadan,2025-10-05 09:00:00,Success
+T1010,C010,Savings,330970.4,Withdrawal,Lagos,2025-10-06 07:08:00,Failed
+T1011,C011,Current,139708.83,Transfer,Kano,2025-10-04 16:49:00,Success
+T1012,C012,Savings,335417.41,Transfer,Enugu,2025-10-02 14:59:00,Success
+T1013,C013,Savings,267535.8,Deposit,Abuja,2025-10-11 12:27:00,Success
+T1014,C014,Credit,344392.82,Deposit,Enugu,2025-10-08 09:06:00,Success
+T1015,C015,Savings,115294.99,Deposit,Kano,2025-10-10 03:05:00,Success
+T1016,C016,Savings,456654.93,Transfer,Enugu,2025-10-08 03:51:00,Success
+T1017,C017,Current,198420.32,Transfer,Port Harcourt,2025-10-04 06:01:00,Success
+T1018,C018,Savings,372749.5,Transfer,Kano,2025-10-10 17:58:00,Failed
+T1019,C019,Current,181636.23,Deposit,Ibadan,2025-10-12 05:31:00,Success
+T1020,C020,Savings,430690.35,Deposit,Enugu,2025-10-04 15:22:00,Success
+T1021,C021,Current,298608.11,Withdrawal,Port Harcourt,2025-10-11 15:37:00,Success
+T1022,C022,Credit,430529.07,Deposit,Enugu,2025-10-03 14:33:00,Success
+T1023,C023,Credit,375688.02,Transfer,Kano,2025-10-03 12:55:00,Success
+T1024,C024,Savings,227408.13,Transfer,Enugu,2025-10-06 23:50:00,Failed
+T1025,C025,Savings,254333.16,Deposit,Enugu,2025-10-07 18:59:00,Success
+T1026,C026,Credit,304876.14,Deposit,Kano,2025-10-04 16:13:00,Success
+T1027,C027,Credit,459328.25,Transfer,Kano,2025-10-12 02:50:00,Success
+T1028,C028,Current,439482.22,Withdrawal,Abuja,2025-10-02 07:38:00,Success
+T1029,C029,Credit,473527.77,Deposit,Enugu,2025-10-12 01:24:00,Success
+T1030,C030,Credit,383151.38,Deposit,Enugu,2025-10-11 19:34:00,Failed
+T1031,C031,Savings,133263.26,Transfer,Port Harcourt,2025-10-05 19:40:00,Failed
+T1032,C032,Credit,345243.95,Transfer,Kano,2025-10-10 01:54:00,Failed
+T1033,C033,Credit,187336.83,Transfer,Port Harcourt,2025-10-03 18:05:00,Success
+T1034,C034,Savings,169704.7,Transfer,Ibadan,2025-10-06 05:40:00,Success
+T1035,C035,Savings,36425.55,Transfer,Lagos,2025-10-06 05:01:00,Success
+T1036,C036,Savings,429958.06,Deposit,Ibadan,2025-10-06 09:58:00,Success
+T1037,C037,Current,107904.17,Deposit,Enugu,2025-10-11 18:08:00,Success
+T1038,C038,Current,403941.0,Deposit,Lagos,2025-10-03 04:56:00,Success
+T1039,C039,Current,212365.73,Withdrawal,Enugu,2025-10-02 05:35:00,Success
+T1040,C040,Credit,50110.52,Withdrawal,Enugu,2025-10-08 17:18:00,Success
+T1041,C041,Savings,125079.51,Deposit,Ibadan,2025-10-11 05:00:00,Success
+T1042,C042,Savings,139994.03,Deposit,Lagos,2025-10-11 02:00:00,Success
+T1043,C043,Credit,49856.46,Transfer,Ibadan,2025-10-01 08:03:00,Failed
+T1044,C044,Savings,83989.24,Withdrawal,Port Harcourt,2025-10-05 20:44:00,Failed
+T1045,C045,Savings,83153.92,Deposit,Port Harcourt,2025-10-07 00:50:00,Failed
+T1046,C046,Current,143339.37,Transfer,Enugu,2025-10-12 01:47:00,Success
+T1047,C047,Current,109632.75,Deposit,Ibadan,2025-10-02 09:17:00,Success
+T1048,C048,Savings,26021.03,Withdrawal,Ibadan,2025-10-04 13:58:00,Success
+T1049,C049,Credit,40975.62,Deposit,Lagos,2025-10-02 13:06:00,Success
+T1050,C050,Savings,202484.0,Transfer,Abuja,2025-10-01 21:42:00,Success
+T1051,C051,Current,329029.21,Transfer,Ibadan,2025-10-08 04:46:00,Failed
+T1052,C052,Savings,335193.26,Withdrawal,Abuja,2025-10-07 01:03:00,Success
+T1053,C053,Credit,323104.89,Withdrawal,Kano,2025-10-02 15:37:00,Success
+T1054,C054,Credit,499228.77,Deposit,Lagos,2025-10-05 20:24:00,Success
+T1055,C055,Savings,466696.43,Deposit,Abuja,2025-10-09 09:48:00,Success
+T1056,C056,Current,417038.73,Transfer,Kano,2025-10-01 04:16:00,Success
+T1057,C057,Credit,150390.0,Transfer,Lagos,2025-10-04 01:20:00,Success
+T1058,C058,Savings,371465.93,Deposit,Kano,2025-10-07 09:52:00,Success
+T1059,C059,Credit,172097.26,Transfer,Enugu,2025-10-07 00:10:00,Success
+T1060,C060,Current,452762.91,Deposit,Lagos,2025-10-10 15:19:00,Success
+T1061,C061,Savings,2769.3,Deposit,Enugu,2025-10-06 23:03:00,Success
+T1062,C062,Current,276288.53,Withdrawal,Ibadan,2025-10-01 05:16:00,Success
+T1063,C063,Credit,452060.36,Transfer,Lagos,2025-10-09 09:38:00,Success
+T1064,C064,Savings,215463.57,Deposit,Kano,2025-10-09 07:08:00,Failed
+T1065,C065,Savings,449563.39,Deposit,Enugu,2025-10-06 16:16:00,Success
+T1066,C066,Current,390278.0,Withdrawal,Ibadan,2025-10-04 12:24:00,Failed
+T1067,C067,Savings,432438.24,Deposit,Port Harcourt,2025-10-01 13:32:00,Success
+T1068,C068,Current,391410.86,Withdrawal,Enugu,2025-10-06 15:31:00,Success
+T1069,C069,Credit,54939.72,Deposit,Port Harcourt,2025-10-06 01:28:00,Success
+T1070,C070,Current,175479.55,Deposit,Abuja,2025-10-01 12:55:00,Success
+T1071,C071,Current,164802.71,Deposit,Kano,2025-10-08 23:46:00,Success
+T1072,C072,Current,340079.54,Transfer,Kano,2025-10-01 15:04:00,Success
+T1073,C073,Current,90105.34,Withdrawal,Lagos,2025-10-03 11:12:00,Success
+T1074,C074,Current,364543.99,Withdrawal,Port Harcourt,2025-10-12 15:18:00,Success
+T1075,C075,Credit,95849.31,Deposit,Enugu,2025-10-10 22:08:00,Success
+T1076,C076,Credit,343741.72,Transfer,Enugu,2025-10-05 11:36:00,Success
+T1077,C077,Savings,474488.37,Withdrawal,Ibadan,2025-10-08 03:26:00,Success
+T1078,C078,Savings,360157.38,Withdrawal,Ibadan,2025-10-08 00:54:00,Success
+T1079,C079,Current,201797.79,Withdrawal,Ibadan,2025-10-03 21:30:00,Success
+T1080,C080,Credit,470241.47,Transfer,Enugu,2025-10-04 23:02:00,Success
+T1081,C081,Current,203631.51,Deposit,Kano,2025-10-07 12:41:00,Success
+T1082,C082,Credit,303724.12,Withdrawal,Port Harcourt,2025-10-11 01:16:00,Success
+T1083,C083,Savings,256075.82,Transfer,Abuja,2025-10-02 22:18:00,Success
+T1084,C084,Credit,316837.49,Withdrawal,Lagos,2025-10-06 08:16:00,Success
+T1085,C085,Savings,403474.88,Deposit,Lagos,2025-10-02 01:14:00,Success
+T1086,C086,Current,306025.71,Deposit,Port Harcourt,2025-10-10 10:20:00,Failed
+T1087,C087,Credit,98023.18,Transfer,Port Harcourt,2025-10-12 05:59:00,Success
+T1088,C088,Savings,328372.95,Deposit,Lagos,2025-10-10 16:11:00,Success
+T1089,C089,Credit,259460.92,Deposit,Ibadan,2025-10-06 16:05:00,Failed
+T1090,C090,Savings,228774.45,Withdrawal,Enugu,2025-10-08 05:17:00,Failed
+T1091,C091,Current,306713.51,Transfer,Ibadan,2025-10-10 17:03:00,Success
+T1092,C092,Credit,223510.89,Deposit,Enugu,2025-10-11 19:14:00,Success
+T1093,C093,Savings,420091.58,Withdrawal,Ibadan,2025-10-12 00:39:00,Success
+T1094,C094,Current,220496.42,Transfer,Kano,2025-10-06 08:03:00,Success
+T1095,C095,Current,446620.39,Deposit,Abuja,2025-10-04 10:22:00,Success
+T1096,C096,Credit,77249.83,Deposit,Lagos,2025-10-10 10:34:00,Success
+T1097,C097,Credit,233496.23,Deposit,Abuja,2025-10-10 13:27:00,Success
+T1098,C098,Credit,473084.95,Deposit,Ibadan,2025-10-09 15:44:00,Success
+T1099,C099,Current,150007.71,Withdrawal,Port Harcourt,2025-10-06 00:26:00,Success
+T1100,C100,Current,218482.15,Deposit,Port Harcourt,2025-10-08 15:34:00,Success
+T1101,C101,Current,362366.51,Withdrawal,Abuja,2025-10-01 14:43:00,Failed
+T1102,C102,Credit,282631.6,Deposit,Lagos,2025-10-10 18:04:00,Success
+T1103,C103,Current,91682.78,Withdrawal,Port Harcourt,2025-10-08 10:46:00,Success
+T1104,C104,Current,169412.77,Withdrawal,Kano,2025-10-10 14:13:00,Success
+T1105,C105,Savings,235683.11,Transfer,Ibadan,2025-10-02 04:26:00,Failed
+T1106,C106,Current,112886.86,Deposit,Enugu,2025-10-01 21:59:00,Success
+T1107,C107,Savings,100480.98,Deposit,Ibadan,2025-10-04 11:13:00,Success
+T1108,C108,Current,335059.96,Transfer,Abuja,2025-10-11 13:58:00,Success
+T1109,C109,Current,84726.78,Transfer,Enugu,2025-10-03 14:33:00,Success
+T1110,C110,Savings,482395.67,Deposit,Ibadan,2025-10-01 14:01:00,Failed
+T1111,C111,Credit,338996.3,Withdrawal,Port Harcourt,2025-10-05 12:18:00,Success
+T1112,C112,Credit,415455.25,Deposit,Lagos,2025-10-07 20:42:00,Failed
+T1113,C113,Credit,402958.45,Transfer,Lagos,2025-10-08 21:37:00,Success
+T1114,C114,Credit,185914.87,Transfer,Enugu,2025-10-08 18:21:00,Success
+T1115,C115,Current,411343.13,Deposit,Port Harcourt,2025-10-09 05:48:00,Success
+T1116,C116,Current,353947.01,Withdrawal,Abuja,2025-10-12 20:56:00,Failed
+T1117,C117,Current,308340.26,Transfer,Port Harcourt,2025-10-11 13:52:00,Success
+T1118,C118,Credit,296644.83,Withdrawal,Abuja,2025-10-02 23:19:00,Success
+T1119,C119,Current,122687.86,Withdrawal,Ibadan,2025-10-09 14:58:00,Success
+T1120,C120,Current,425625.47,Deposit,Port Harcourt,2025-10-05 19:50:00,Success
+T1121,C121,Current,170829.08,Transfer,Enugu,2025-10-07 06:52:00,Success
+T1122,C122,Credit,474083.23,Deposit,Abuja,2025-10-10 05:57:00,Success
+T1123,C123,Savings,345614.06,Transfer,Enugu,2025-10-12 04:03:00,Success
+T1124,C124,Savings,47433.62,Deposit,Port Harcourt,2025-10-06 12:52:00,Success
+T1125,C125,Credit,185141.2,Transfer,Ibadan,2025-10-08 19:44:00,Success
+T1126,C126,Credit,275643.85,Withdrawal,Enugu,2025-10-11 07:48:00,Success
+T1127,C127,Current,116038.48,Transfer,Abuja,2025-10-08 04:19:00,Success
+T1128,C128,Credit,475487.9,Transfer,Abuja,2025-10-05 08:36:00,Success
+T1129,C129,Current,138973.31,Transfer,Ibadan,2025-10-07 10:33:00,Failed
+T1130,C130,Savings,148826.99,Withdrawal,Abuja,2025-10-07 21:04:00,Success
+T1131,C131,Credit,64164.9,Deposit,Lagos,2025-10-07 15:32:00,Success
+T1132,C132,Savings,319296.96,Withdrawal,Lagos,2025-10-01 06:41:00,Success
+T1133,C133,Current,239878.39,Withdrawal,Abuja,2025-10-02 04:03:00,Success
+T1134,C134,Current,57929.48,Deposit,Port Harcourt,2025-10-12 04:33:00,Success
+T1135,C135,Credit,343539.06,Deposit,Abuja,2025-10-07 21:56:00,Success
+T1136,C136,Savings,60107.33,Withdrawal,Ibadan,2025-10-06 03:15:00,Success
+T1137,C137,Current,225806.72,Withdrawal,Kano,2025-10-10 18:11:00,Success
+T1138,C138,Credit,31054.92,Transfer,Lagos,2025-10-05 17:28:00,Success
+T1139,C139,Current,330553.64,Deposit,Abuja,2025-10-04 22:55:00,Success
+T1140,C140,Savings,2335.19,Withdrawal,Enugu,2025-10-11 16:38:00,Success
+T1141,C141,Savings,144764.34,Withdrawal,Enugu,2025-10-11 07:57:00,Success
+T1142,C142,Savings,462031.61,Transfer,Ibadan,2025-10-05 12:02:00,Success
+T1143,C143,Credit,113179.92,Deposit,Kano,2025-10-04 05:40:00,Success
+T1144,C144,Savings,396521.65,Transfer,Enugu,2025-10-07 13:37:00,Success
+T1145,C145,Current,344650.32,Transfer,Port Harcourt,2025-10-07 04:40:00,Success
+T1146,C146,Current,219441.67,Transfer,Lagos,2025-10-10 19:56:00,Success
+T1147,C147,Credit,125933.58,Deposit,Abuja,2025-10-01 11:19:00,Failed
+T1148,C148,Credit,410889.2,Transfer,Lagos,2025-10-04 23:40:00,Success
+T1149,C149,Credit,221672.47,Withdrawal,Abuja,2025-10-10 22:03:00,Success
+T1150,C150,Current,484558.56,Withdrawal,Kano,2025-10-10 07:00:00,Success
+T1151,C151,Credit,53195.34,Deposit,Kano,2025-10-10 08:48:00,Success
+T1152,C152,Current,331629.18,Withdrawal,Ibadan,2025-10-01 20:02:00,Success
+T1153,C153,Current,126947.03,Deposit,Port Harcourt,2025-10-12 17:02:00,Success
+T1154,C154,Savings,329172.53,Transfer,Port Harcourt,2025-10-10 09:41:00,Success
+T1155,C155,Credit,181527.9,Withdrawal,Enugu,2025-10-11 01:24:00,Success
+T1156,C156,Savings,134261.06,Deposit,Kano,2025-10-10 23:16:00,Failed
+T1157,C157,Current,61591.62,Transfer,Ibadan,2025-10-06 10:41:00,Success
+T1158,C158,Current,275868.66,Transfer,Port Harcourt,2025-10-03 02:54:00,Success
+T1159,C159,Savings,231262.5,Deposit,Enugu,2025-10-04 12:05:00,Success
+T1160,C160,Credit,146638.92,Transfer,Kano,2025-10-10 10:54:00,Success
+T1161,C161,Current,122621.72,Transfer,Abuja,2025-10-09 17:29:00,Success
+T1162,C162,Credit,254612.2,Deposit,Lagos,2025-10-07 06:52:00,Success
+T1163,C163,Current,170597.75,Transfer,Kano,2025-10-01 01:24:00,Success
+T1164,C164,Current,418900.49,Transfer,Enugu,2025-10-12 03:24:00,Failed
+T1165,C165,Current,269751.71,Withdrawal,Kano,2025-10-09 14:00:00,Success
+T1166,C166,Current,434931.24,Transfer,Abuja,2025-10-09 17:09:00,Success
+T1167,C167,Current,22780.0,Transfer,Port Harcourt,2025-10-09 16:12:00,Success
+T1168,C168,Credit,396404.44,Transfer,Abuja,2025-10-12 06:30:00,Failed
+T1169,C169,Savings,251643.28,Transfer,Kano,2025-10-03 06:48:00,Failed
+T1170,C170,Current,50756.14,Withdrawal,Lagos,2025-10-04 06:43:00,Success
+T1171,C171,Credit,485008.44,Deposit,Port Harcourt,2025-10-07 00:44:00,Success
+T1172,C172,Credit,199344.18,Deposit,Kano,2025-10-09 15:32:00,Failed
+T1173,C173,Credit,359640.0,Withdrawal,Ibadan,2025-10-01 19:36:00,Success
+T1174,C174,Savings,315949.35,Withdrawal,Abuja,2025-10-03 01:21:00,Success
+T1175,C175,Savings,380424.48,Transfer,Lagos,2025-10-11 02:18:00,Success
+T1176,C176,Current,451808.61,Deposit,Kano,2025-10-02 06:38:00,Success
+T1177,C177,Current,215912.71,Deposit,Ibadan,2025-10-10 09:02:00,Success
+T1178,C178,Savings,85821.84,Deposit,Ibadan,2025-10-09 16:55:00,Success
+T1179,C179,Savings,249335.96,Transfer,Abuja,2025-10-06 06:48:00,Success
+T1180,C180,Current,230325.68,Transfer,Lagos,2025-10-11 14:05:00,Failed
+T1181,C181,Credit,273752.47,Deposit,Port Harcourt,2025-10-08 20:43:00,Failed
+T1182,C182,Current,319830.41,Withdrawal,Enugu,2025-10-06 16:35:00,Success
+T1183,C183,Current,100409.28,Withdrawal,Port Harcourt,2025-10-03 10:14:00,Success
+T1184,C184,Credit,180120.62,Withdrawal,Enugu,2025-10-07 17:14:00,Success
+T1185,C185,Credit,198507.06,Deposit,Ibadan,2025-10-02 02:47:00,Failed
+T1186,C186,Credit,248866.92,Withdrawal,Abuja,2025-10-09 00:24:00,Success
+T1187,C187,Savings,310824.69,Transfer,Enugu,2025-10-04 02:41:00,Success
+T1188,C188,Credit,323523.96,Withdrawal,Port Harcourt,2025-10-01 18:13:00,Success
+T1189,C189,Credit,66574.49,Withdrawal,Kano,2025-10-10 10:55:00,Success
+T1190,C190,Savings,393469.89,Withdrawal,Ibadan,2025-10-12 10:02:00,Failed
+T1191,C191,Savings,129228.07,Withdrawal,Kano,2025-10-08 16:59:00,Success
+T1192,C192,Current,481483.75,Deposit,Abuja,2025-10-10 01:02:00,Failed
+T1193,C193,Credit,183521.75,Withdrawal,Lagos,2025-10-07 00:25:00,Success
+T1194,C194,Current,184924.24,Transfer,Enugu,2025-10-06 23:10:00,Success
+T1195,C195,Credit,470205.65,Deposit,Enugu,2025-10-06 07:41:00,Success
+T1196,C196,Credit,442233.19,Transfer,Kano,2025-10-06 00:53:00,Success
+T1197,C197,Credit,412103.82,Transfer,Kano,2025-10-10 06:59:00,Success
+T1198,C198,Savings,473184.5,Withdrawal,Port Harcourt,2025-10-03 15:25:00,Success
+T1199,C199,Credit,68696.36,Withdrawal,Kano,2025-10-10 12:53:00,Success
+T1200,C200,Credit,78106.93,Withdrawal,Enugu,2025-10-03 06:04:00,Success
+T1201,C201,Credit,204649.83,Withdrawal,Lagos,2025-10-09 10:21:00,Success
+T1202,C202,Current,475327.03,Withdrawal,Lagos,2025-10-09 08:36:00,Success
+T1203,C203,Credit,179978.25,Withdrawal,Kano,2025-10-05 07:39:00,Failed
+T1204,C204,Current,46745.04,Deposit,Enugu,2025-10-01 11:39:00,Success
+T1205,C205,Current,122540.88,Deposit,Ibadan,2025-10-05 16:04:00,Success
+T1206,C206,Credit,104371.53,Deposit,Abuja,2025-10-08 11:26:00,Success
+T1207,C207,Credit,2414.94,Deposit,Abuja,2025-10-06 16:53:00,Success
+T1208,C208,Savings,330867.76,Deposit,Abuja,2025-10-01 08:06:00,Success
+T1209,C209,Savings,294837.61,Deposit,Abuja,2025-10-07 00:55:00,Success
+T1210,C210,Credit,211059.32,Deposit,Enugu,2025-10-02 10:42:00,Success
+T1211,C211,Current,257105.74,Deposit,Port Harcourt,2025-10-12 11:09:00,Success
+T1212,C212,Credit,22639.15,Transfer,Ibadan,2025-10-07 20:43:00,Success
+T1213,C213,Savings,31351.88,Withdrawal,Port Harcourt,2025-10-10 16:48:00,Success
+T1214,C214,Current,356488.26,Withdrawal,Lagos,2025-10-02 20:07:00,Success
+T1215,C215,Savings,33775.43,Withdrawal,Ibadan,2025-10-08 09:35:00,Success
+T1216,C216,Credit,265747.86,Withdrawal,Ibadan,2025-10-10 18:56:00,Success
+T1217,C217,Credit,58092.62,Transfer,Enugu,2025-10-05 21:25:00,Success
+T1218,C218,Savings,207492.97,Withdrawal,Port Harcourt,2025-10-10 11:11:00,Success
+T1219,C219,Current,213955.24,Transfer,Kano,2025-10-09 12:25:00,Failed
+T1220,C220,Credit,461569.53,Deposit,Lagos,2025-10-02 22:37:00,Success
+T1221,C221,Savings,372549.9,Withdrawal,Abuja,2025-10-02 08:45:00,Success
+T1222,C222,Credit,281280.01,Transfer,Lagos,2025-10-10 08:21:00,Success
+T1223,C223,Credit,470623.8,Withdrawal,Enugu,2025-10-02 04:05:00,Failed
+T1224,C224,Credit,156912.0,Deposit,Ibadan,2025-10-12 13:06:00,Success
+T1225,C225,Credit,241612.51,Deposit,Kano,2025-10-09 08:44:00,Success
+T1226,C226,Current,287475.9,Withdrawal,Ibadan,2025-10-01 14:20:00,Success
+T1227,C227,Credit,414900.93,Withdrawal,Lagos,2025-10-05 02:31:00,Success
+T1228,C228,Current,460847.22,Withdrawal,Lagos,2025-10-05 03:04:00,Failed
+T1229,C229,Credit,329014.97,Deposit,Abuja,2025-10-01 16:44:00,Success
+T1230,C230,Credit,108351.31,Withdrawal,Port Harcourt,2025-10-08 18:10:00,Success
+T1231,C231,Current,361076.39,Transfer,Ibadan,2025-10-02 22:23:00,Failed
+T1232,C232,Savings,79547.54,Transfer,Lagos,2025-10-02 20:33:00,Success
+T1233,C233,Credit,212583.37,Transfer,Port Harcourt,2025-10-10 10:11:00,Success
+T1234,C234,Credit,57794.94,Withdrawal,Lagos,2025-10-07 10:41:00,Success
+T1235,C235,Credit,243829.74,Transfer,Kano,2025-10-02 00:48:00,Success
+T1236,C236,Credit,28336.2,Deposit,Kano,2025-10-05 19:21:00,Success
+T1237,C237,Current,145434.12,Deposit,Lagos,2025-10-12 07:38:00,Success
+T1238,C238,Savings,65463.67,Transfer,Enugu,2025-10-06 05:40:00,Success
+T1239,C239,Credit,403293.89,Deposit,Port Harcourt,2025-10-01 23:06:00,Success
+T1240,C240,Current,460660.05,Withdrawal,Ibadan,2025-10-10 18:26:00,Success
+T1241,C241,Credit,320430.69,Withdrawal,Lagos,2025-10-10 05:12:00,Success
+T1242,C242,Current,86764.72,Transfer,Port Harcourt,2025-10-09 05:37:00,Success
+T1243,C243,Savings,122414.92,Transfer,Port Harcourt,2025-10-12 22:09:00,Success
+T1244,C244,Current,373156.61,Deposit,Kano,2025-10-04 19:49:00,Success
+T1245,C245,Credit,57899.29,Transfer,Abuja,2025-10-08 22:48:00,Success
+T1246,C246,Credit,407703.47,Deposit,Lagos,2025-10-04 07:58:00,Success
+T1247,C247,Savings,301597.09,Transfer,Lagos,2025-10-05 00:44:00,Failed
+T1248,C248,Credit,247564.4,Transfer,Ibadan,2025-10-11 05:09:00,Success
+T1249,C249,Credit,321852.92,Transfer,Kano,2025-10-08 04:39:00,Success
+T1250,C250,Savings,234991.62,Transfer,Kano,2025-10-07 06:00:00,Success
